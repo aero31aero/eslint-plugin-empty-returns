@@ -25,7 +25,7 @@ module.exports = {
                             }
                             context.report({
                                 node: node,
-                                message: "Do not use `return undefined;`",
+                                message: "Use `return;` instead of `return undefined;`",
                                 fix: fixthis,
                             });
                         }

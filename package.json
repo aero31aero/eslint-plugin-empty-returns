@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-empty-returns",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint plugin to ensure undefined returns are empty.",
   "main": "index.js",
   "directories": {

@@ -17,7 +17,7 @@ ruleTester.run("empty-returns", rule.rules.main, {
             code: "var x = function() {return undefined;}",
             output: "var x = function() {return;}",
             errors: [{
-                message: "Do not use `return undefined;`",
+                message: "Use `return;` instead of `return undefined;`",
                 type: "ReturnStatement"
             }]
         }
