@@ -1,7 +1,7 @@
 var rule = require('./index');
 var RuleTester = require("eslint").RuleTester;
 var ruleTester = new RuleTester();
-ruleTester.run("empty-returns", rule, {
+ruleTester.run("empty-returns", rule.rules.main, {
 
     valid: [
         "var x = function() {return;}",
