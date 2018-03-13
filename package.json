@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-empty-returns",
+  "version": "1.0.0",
+  "description": "Eslint plugin to ensure undefined returns are empty.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aero31aero/eslint-plugin-empty-returns.git"
+  },
+  "keywords": [
+    "eslint-plugin",
+    "zulip"
+  ],
+  "author": "Rohitt Vashishtha <aero31aero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aero31aero/eslint-plugin-empty-returns/issues"
+  },
+  "homepage": "https://github.com/aero31aero/eslint-plugin-empty-returns#readme"
+}
